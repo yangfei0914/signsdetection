@@ -1,0 +1,174 @@
+Data dir name: cascade/nopark3_cascade_s10
+Vec file name: nopark3.vec
+BG  file name: negatives.dat
+Num pos: 50
+Num neg: 2000
+Num stages: 10
+Num splits: 2 (tree as weak classifier)
+Mem: 1024 MB
+Symmetric: FALSE
+Min hit rate: 0.999000
+Max false alarm rate: 0.500000
+Weight trimming: 0.950000
+Equal weights: FALSE
+Mode: ALL
+Width: 20
+Height: 20
+Max num of precalculated features: 87296
+Applied boosting algorithm: GAB
+Error (valid only for Discrete and Real AdaBoost): misclass
+Max number of splits in tree cascade: 0
+Min number of positive samples per cluster: 500
+Required leaf false alarm rate: 0.000976563
+
+Tree Classifier
+Stage
++---+
+|  0|
++---+
+
+
+Number of features used : 125199
+
+Parent node: NULL
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 2000 1
+BACKGROUND PROCESSING TIME: 0.03
+Precalculation time: 63.70
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-| 0.733861| 1.000000| 0.145000| 0.141463|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 94.23
+Number of used features: 2
+
+Parent node: NULL
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+
+|  0|
++---+
+
+   0
+
+
+Parent node: 0
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 2000 0.161316
+BACKGROUND PROCESSING TIME: 0.63
+Precalculation time: 62.20
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.918616| 1.000000| 1.000000| 0.056585|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.056582| 1.000000| 0.124500| 0.052683|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 181.17
+Number of used features: 4
+
+Parent node: 0
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+
+|  0|  1|
++---+---+
+
+   0---1
+
+
+Parent node: 1
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 2000 0.0268507
+BACKGROUND PROCESSING TIME: 3.99
+Precalculation time: 52.41
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-| 0.735357| 1.000000| 0.152000| 0.148293|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 74.77
+Number of used features: 2
+
+Parent node: 1
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+
+|  0|  1|  2|
++---+---+---+
+
+   0---1---2
+
+
+Parent node: 2
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 2000 0.00529681
+BACKGROUND PROCESSING TIME: 12.80
+Precalculation time: 64.09
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.956591| 1.000000| 1.000000| 0.096585|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.157333| 1.000000| 0.119500| 0.013171|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 181.05
+Number of used features: 4
+
+Parent node: 2
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+
+|  0|  1|  2|  3|
++---+---+---+---+
+
+   0---1---2---3
+
+
+Parent node: 3
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 2000 0.000569295
+BACKGROUND PROCESSING TIME: 51.56
+Required leaf false alarm rate achieved. Branch training terminated.
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+
+|  0|  1|  2|  3|
++---+---+---+---+
+
+   0---1---2---3
+
+
+Cascade performance
+POS: 50 50 1.000000
+NEG: 2000 0.000592511
+BACKGROUND PROCESSING TIME: 40.61

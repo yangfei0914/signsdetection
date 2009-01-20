@@ -1,0 +1,38 @@
+Data dir name: cascade/nopark3_cascade_test1
+Vec file name: nopark3.vec
+BG  file name: negatives.dat
+Num pos: 50
+Num neg: 2000
+Num stages: 20
+Num splits: 1 (stump as weak classifier)
+Mem: 1024 MB
+Symmetric: FALSE
+Min hit rate: 0.995000
+Max false alarm rate: 0.500000
+Weight trimming: 0.950000
+Equal weights: FALSE
+Mode: ALL
+Width: 20
+Height: 20
+Max num of precalculated features: 87296
+Applied boosting algorithm: GAB
+Error (valid only for Discrete and Real AdaBoost): misclass
+Max number of splits in tree cascade: 0
+Min number of positive samples per cluster: 500
+Required leaf false alarm rate: 9.53674e-007
+
+Tree Classifier
+Stage
++---+
+|  0|
++---+
+
+
+Number of features used : 125199
+
+Parent node: NULL
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 2000 1
+BACKGROUND PROCESSING TIME: 0.02

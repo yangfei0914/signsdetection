@@ -1,0 +1,360 @@
+Data dir name: cascade/nopark3_800_cascade
+Vec file name: nopark3.vec
+BG  file name: negatives800.dat
+Num pos: 50
+Num neg: 800
+Num stages: 20
+Num splits: 2 (tree as weak classifier)
+Mem: 1300 MB
+Symmetric: FALSE
+Min hit rate: 0.999000
+Max false alarm rate: 0.500000
+Weight trimming: 0.950000
+Equal weights: FALSE
+Mode: ALL
+Width: 20
+Height: 20
+Max num of precalculated features: 267284
+Applied boosting algorithm: GAB
+Error (valid only for Discrete and Real AdaBoost): misclass
+Max number of splits in tree cascade: 0
+Min number of positive samples per cluster: 500
+Required leaf false alarm rate: 9.53674e-007
+
+Tree Classifier
+Stage
++---+
+|  0|
++---+
+
+
+Number of features used : 125199
+
+Parent node: NULL
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 1
+BACKGROUND PROCESSING TIME: 0.01
+Precalculation time: 31.84
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.957727| 1.000000| 1.000000| 0.070588|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.121780| 1.000000| 0.082500| 0.010588|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 36.91
+Number of used features: 4
+
+Parent node: NULL
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+
+|  0|
++---+
+
+   0
+
+
+Parent node: 0
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 0.135708
+BACKGROUND PROCESSING TIME: 0.45
+Precalculation time: 31.33
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.912445| 1.000000| 1.000000| 0.121176|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.135746| 1.000000| 0.217500| 0.016471|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 33.83
+Number of used features: 4
+
+Parent node: 0
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+
+|  0|  1|
++---+---+
+
+   0---1
+
+
+Parent node: 1
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 0.0271619
+BACKGROUND PROCESSING TIME: 1.66
+Precalculation time: 32.28
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.918885| 1.000000| 1.000000| 0.052941|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.201726| 1.000000| 0.240000| 0.004706|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 36.26
+Number of used features: 4
+
+Parent node: 1
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+
+|  0|  1|  2|
++---+---+---+
+
+   0---1---2
+
+
+Parent node: 2
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 0.00808988
+BACKGROUND PROCESSING TIME: 7.78
+Precalculation time: 37.00
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.668382| 1.000000| 0.880000| 0.080000|
++----+----+-+---------+---------+---------+---------+
+|   2| 88%|-|-0.047075| 1.000000| 0.187500| 0.161176|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 34.76
+Number of used features: 4
+
+Parent node: 2
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+
+|  0|  1|  2|  3|
++---+---+---+---+
+
+   0---1---2---3
+
+
+Parent node: 3
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 0.00283129
+BACKGROUND PROCESSING TIME: 14.75
+Precalculation time: 31.45
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.768395| 1.000000| 1.000000| 0.085882|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.284683| 1.000000| 0.241250| 0.094118|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 35.03
+Number of used features: 4
+
+Parent node: 3
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+
+|  0|  1|  2|  3|  4|
++---+---+---+---+---+
+
+   0---1---2---3---4
+
+
+Parent node: 4
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 0.000678804
+BACKGROUND PROCESSING TIME: 23.06
+Precalculation time: 31.61
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.950688| 1.000000| 1.000000| 0.197647|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.137292| 1.000000| 0.231250| 0.027059|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 35.64
+Number of used features: 4
+
+Parent node: 4
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|
++---+---+---+---+---+---+
+
+   0---1---2---3---4---5
+
+
+Parent node: 5
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 0.000190417
+BACKGROUND PROCESSING TIME: 44.73
+Precalculation time: 31.42
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.950528| 1.000000| 1.000000| 0.200000|
++----+----+-+---------+---------+---------+---------+
+|   2|100%|-|-0.356355| 1.000000| 0.293750| 0.034118|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 30.77
+Number of used features: 4
+
+Parent node: 5
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|  6|
++---+---+---+---+---+---+---+
+
+   0---1---2---3---4---5---6
+
+
+Parent node: 6
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 5.80269e-005
+BACKGROUND PROCESSING TIME: 157.81
+Precalculation time: 31.80
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-| 0.588875| 1.000000| 0.258750| 0.243529|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 18.48
+Number of used features: 2
+
+Parent node: 6
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|  6|  7|
++---+---+---+---+---+---+---+---+
+
+   0---1---2---3---4---5---6---7
+
+
+Parent node: 7
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 1.65198e-005
+BACKGROUND PROCESSING TIME: 557.64
+Precalculation time: 31.34
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-|-0.715130| 1.000000| 0.855000| 0.131765|
++----+----+-+---------+---------+---------+---------+
+|   2| 86%|-|-0.086700| 1.000000| 0.216250| 0.030588|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 34.08
+Number of used features: 4
+
+Parent node: 7
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|  6|  7|  8|
++---+---+---+---+---+---+---+---+---+
+
+   0---1---2---3---4---5---6---7---8
+
+
+Parent node: 8
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 3.92612e-006
+BACKGROUND PROCESSING TIME: 2338.73
+Precalculation time: 31.11
++----+----+-+---------+---------+---------+---------+
+|  N |%SMP|F|  ST.THR |    HR   |    FA   | EXP. ERR|
++----+----+-+---------+---------+---------+---------+
+|   1|100%|-| 0.560976| 1.000000| 0.191250| 0.180000|
++----+----+-+---------+---------+---------+---------+
+Stage training time: 15.66
+Number of used features: 2
+
+Parent node: 8
+Chosen number of splits: 0
+
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|  6|  7|  8|  9|
++---+---+---+---+---+---+---+---+---+---+
+
+   0---1---2---3---4---5---6---7---8---9
+
+
+Parent node: 9
+
+*** 1 cluster ***
+POS: 50 50 1.000000
+NEG: 800 7.19984e-007
+BACKGROUND PROCESSING TIME: 12730.52
+Required leaf false alarm rate achieved. Branch training terminated.
+Total number of splits: 0
+
+Tree Classifier
+Stage
++---+---+---+---+---+---+---+---+---+---+
+|  0|  1|  2|  3|  4|  5|  6|  7|  8|  9|
++---+---+---+---+---+---+---+---+---+---+
+
+   0---1---2---3---4---5---6---7---8---9
+
+
+Cascade performance
+POS: 50 50 1.000000
+NEG: 800 7.05841e-007
+BACKGROUND PROCESSING TIME: 12742.92
